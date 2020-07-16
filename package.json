@@ -1,0 +1,15 @@
+{
+  "name": "watchbase",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "aigle": "^1.14.1",
+    "cheerio": "^1.0.0-rc.3",
+    "lodash": "^4.17.19",
+    "node-fetch": "^2.6.0",
+    "puppeteer": "^5.1.0",
+    "scrape-it": "^5.2.3",
+    "slugify": "^1.4.4"
+  }
+}
