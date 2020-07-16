@@ -237,7 +237,9 @@ const getWatch = async (url, page) => {
 };
 
 const execute = async () => {
-  const browser = await puppeteer.launch();
+  const browser = await puppeteer.launch({
+    args: ['--no-sandbox', '--disable-setuid-sandbox']
+  });
   const page = await browser.newPage();
   const allUniq = uniq(allModels);
 
